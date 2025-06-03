@@ -1,0 +1,78 @@
+/* Estilos para o modal de login */
+.login-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--white);
+    color: var(--primary-red);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background: var(--light-red);
+    color: white;
+}
+
+.login-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+
+.login-form h3 {
+    color: var(--primary-red);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--dark-gray);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-help {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Melhorias na responsividade */
+@media (max-width: 480px) {
+    .header-text h1 {
+        font-size: 2rem;
+    }
+    
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .login-form {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}
